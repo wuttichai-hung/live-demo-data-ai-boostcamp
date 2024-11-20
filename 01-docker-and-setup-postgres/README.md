@@ -5,6 +5,8 @@
 - Image
 - Container
 
+Dockerfle -Build-> Image -push-> Registry -pull+run-> container
+
 ```bash
 cd /workspaces/live-demo-data-ai-boostcamp/01-docker-and-setup-postgres/
 ```

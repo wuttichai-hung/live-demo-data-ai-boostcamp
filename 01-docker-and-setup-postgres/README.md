@@ -5,7 +5,11 @@
 - Image
 - Container
 
-Dockerfle -Build-> Image -push-> Registry -pull+run-> container
+flowchart LR
+    A[Dockerfile] --> B[Build Image]
+    B --> C[Push to Registry]
+    C --> D[Pull Image]
+    D --> E[Run Container]
 
 ```bash
 cd /workspaces/live-demo-data-ai-boostcamp/01-docker-and-setup-postgres/

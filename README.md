@@ -21,3 +21,8 @@
 ## References
 - dockerhub postgres: https://hub.docker.com/_/postgres
 - codespace forward port: https://docs.github.com/en/codespaces/developing-in-a-codespace/forwarding-ports-in-your-codespace
+
+## Clean up
+- go to: https://github.com/features/codespaces
+- Get started
+- click your codespace `...` then `Stop` or `Delete`

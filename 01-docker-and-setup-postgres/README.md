@@ -3,13 +3,16 @@
 ## Container Concept
 - Dockerfile
 - Image
+- Registry
 - Container
 
-flowchart LR
-    A[Dockerfile] --> B[Build Image]
-    B --> C[Push to Registry]
-    C --> D[Pull Image]
-    D --> E[Run Container]
+## command
+- build
+- push
+- pull
+- run
+- stop
+- rm
 
 ```bash
 cd /workspaces/live-demo-data-ai-boostcamp/01-docker-and-setup-postgres/
